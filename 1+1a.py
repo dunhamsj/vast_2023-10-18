@@ -83,13 +83,13 @@ plt.gca().add_patch( e2 )
 ax.text( -0.4, 0.1, r'$e_{t+dt}\left(p\right)$', \
          c = cs2, fontsize = 13 )
 
-t = patches.FancyArrowPatch \
-        ( ( x1, y1( x1 ) ), ( x2, y2( x2 ) ), \
-          color = 'm', **kw )
-plt.gca().add_patch( t )
-ax.text( 0.5 * ( x1 + x2 )+0.05, 0.5 * ( y1( x1 ) + y2( x2 ) ), \
-         r'$\overline{t}$', \
-         c = 'm', fontsize = 16 )
+#t = patches.FancyArrowPatch \
+#        ( ( x1, y1( x1 ) ), ( x2, y2( x2 ) ), \
+#          color = 'm', **kw )
+#plt.gca().add_patch( t )
+#ax.text( 0.5 * ( x1 + x2 )+0.05, 0.5 * ( y1( x1 ) + y2( x2 ) ), \
+#         r'$\overline{t}$', \
+#         c = 'm', fontsize = 16 )
 
 b = patches.FancyArrowPatch \
         ( ( x1, y2( x1 ) ), ( x2, y2( x2 ) ), \
